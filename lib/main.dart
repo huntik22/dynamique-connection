@@ -1,7 +1,9 @@
+// import 'package:dynamique_connexion/views/login_page.dart';
+import 'package:dynamique_connexion/views/social_page.dart';
 import 'package:flutter/material.dart';
 
 import 'constant/colors.dart';
-import 'views/welcome_page.dart';
+// import 'views/welcome_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: d_red),
         useMaterial3: false,
       ),
-      home:const WelcomePage() ,
+      home:const SocialPage() ,
     );
   }
 }
